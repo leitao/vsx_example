@@ -1,2 +1,2 @@
 all:
-	gcc -O0 -g vmx.c -DVMX -o vmx
+	gcc -O3 -g vmx.c -DVMX -o vmx
