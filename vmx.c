@@ -31,7 +31,7 @@ int add_mul(int change) {
                 E = vec_and(A, D);
 
             for (y = 0; y < LOOP2; y++)
-                F = vec_div(E, B);
+                F = vec_or(E, B);
 
             for (y = 0; y < LOOP2; y++)
                 G = vec_xor(F, E);
